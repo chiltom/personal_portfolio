@@ -8,7 +8,7 @@ const MyNavbar = (): ReactNode => {
     <>
       <Navbar
         expand="lg"
-        className="flex flex-row items-center navbar navbar-dark bg-dark"
+        className="flex flex-row items-center navbar navbar-dark bg-zinc-950"
       >
         <Navbar.Brand
           as={Link}
