@@ -6,19 +6,22 @@ import Navbar from "react-bootstrap/Navbar";
 const MyNavbar = (): ReactNode => {
   return (
     <>
-      <Navbar expand="lg" className="bg-gray-400 flex flex-row items-center">
+      <Navbar
+        expand="lg"
+        className="flex flex-row items-center navbar navbar-dark bg-dark"
+      >
         <Navbar.Brand
           as={Link}
           to={"/"}
-          className="ml-6 inline-flex items-center"
+          className="ml-6 inline-flex items-center text-white"
         >
           Not Tom From MySpace
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className="">
           <Nav className="me-auto ml-6">
             <Nav.Link
-              className="hover:drop-shadow"
+              className="hover:drop-shadow text-white"
               as={Link}
               to={"/about/"}
               id="about-link"
@@ -26,7 +29,7 @@ const MyNavbar = (): ReactNode => {
               About
             </Nav.Link>
             <Nav.Link
-              className="hover:drop-shadow"
+              className="hover:drop-shadow text-white"
               as={Link}
               to={"/projects/"}
               id="projects-link"
