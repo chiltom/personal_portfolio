@@ -1,13 +1,14 @@
 import { ReactNode } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import Accomplishments from "../components/Accomplishments";
 
 const About = (): ReactNode => {
   return (
     <>
       <Container>
         <Row className="my-8">
-          <h1 className="text-4xl">About the Author</h1>
+          <h1 className="text-4xl">A Little Bit About Me</h1>
           <br />
         </Row>
         <Row>
@@ -25,34 +26,19 @@ const About = (): ReactNode => {
         <br />
         <Row>
           <p>
-            The Army didn't instantly aid my developer journey, and I spent the
-            little free time I had researching as much as I could about software
-            development, as well as slowly working towards my Computer Science
-            degree. Now, transitioning out of the military with a family, 90
-            credits towards my Bachelor's degree completed, and attending an
-            amazing boot camp, Code Platoon, I find myself very appreciative of
-            everything I have gained over the past 6 years.
-          </p>
-        </Row>
-        <br />
-        <Row>
-          <p>
             Problem-solving is the backbone of what I have done and will
             continue to do every day. Whether it was engineering a way to repair
-            a critical helicopter component, or now studying and implementing
-            complex algorithms and data structures, my work has always involved
-            a great deal of critical thinking. I take great pride and joy in
-            considering myself a life-long learner because of this, and continue
-            to study and implement the highest-quality, most efficient solutions
-            in everything I do.
+            a critical helicopter component, or now methodically creating the
+            best solutions for a client's technical needs, my work has always
+            involved a great deal of critical thinking. I take great pride and
+            joy in considering myself a life-long learner because of this, and
+            continue to study and implement the highest-quality, most efficient
+            solutions in everything I do.
           </p>
         </Row>
         <br />
         <Row>
-          <h1 className="text-3xl">Notable Accomplishments</h1>
-          <ul>
-            <li></li>
-          </ul>
+          <Accomplishments />
         </Row>
       </Container>
     </>
