@@ -17,7 +17,7 @@ const MyNavbar = (): ReactNode => {
         >
           Not Tom From MySpace
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="mr-3" />
         <Navbar.Collapse id="basic-navbar-nav" className="">
           <Nav className="me-auto ml-6">
             <Nav.Link

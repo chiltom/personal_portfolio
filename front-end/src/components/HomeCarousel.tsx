@@ -4,12 +4,11 @@ import Container from "react-bootstrap/Container";
 import img1 from "../assets/1704.jpg";
 import img2 from "../assets/1753.jpg";
 import img3 from "../assets/2973.jpeg";
-import img4 from "../assets/2990.jpeg";
 
 const HomeCarousel = (): ReactNode => {
   return (
     <>
-      <Carousel>
+      <Carousel className="mt-2">
         <Carousel.Item>
           <Container
             style={{ width: "800px", height: "400px" }}
