@@ -1,8 +1,11 @@
 import { ReactElement, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { BlogPost, loadPosts } from "@utils/loadPosts";
+import { TabTitle } from "@src/utilities/documentUtilities";
 
 const Blog: React.FC = (): ReactElement => {
+  TabTitle('Tom Childress - Blog');
+
   const [posts, setPosts] = useState<BlogPost[]>([]);
 
   useEffect(() => {

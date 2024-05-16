@@ -2,6 +2,7 @@ import { ReactElement, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import { BlogPost as BlogPostType, loadPosts } from "@src/utilities/loadPosts";
+import { TabTitle } from "@src/utilities/documentUtilities";
 
 interface Params extends Record<string, string> {
   id: string;
@@ -10,6 +11,8 @@ interface Params extends Record<string, string> {
 const BlogPost: React.FC = (): ReactElement => {
   const { id } = useParams<Params>();
   const [post, setPost] = useState<BlogPostType | null>(null);
+
+  TabTitle(`Tom Childress - Post ${id}`);
 
   useEffect(() => {
     const fetchPost = async (): Promise<void> => {
