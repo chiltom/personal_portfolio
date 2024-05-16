@@ -1,6 +1,6 @@
-import { ReactNode } from "react";
+import { ReactElement } from "react";
 
-const ErrorPage = (): ReactNode => {
+const ErrorPage: React.FC = (): ReactElement => {
   return (
     <>
       <h1>Error Page</h1>

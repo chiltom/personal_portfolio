@@ -1,14 +1,13 @@
 import { Outlet } from "react-router-dom";
 import "./App.css";
-import MyNavbar from "./components/MyNavbar";
+import { ReactElement } from "react";
 
-function App() {
+const App: React.FC = (): ReactElement => {
   return (
     <>
-      <MyNavbar />
       <Outlet />
     </>
   );
-}
+};
 
 export default App;
