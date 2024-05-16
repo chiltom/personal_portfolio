@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "title": "First Blog Post",
+      "excerpt": "This is a short summary of the first blog post.",
+      "content": "Full content of the first blog post goes here.",
+      "author": "Author 1",
+      "date": "2024-05-16",
+      "readingTime": "5 min read",
+      "coverImage": "/images/disclone-logo.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Second Blog Post",
+      "excerpt": "This is a short summary of the second blog post.",
+      "content": "Full content of the second blog post goes here.",
+      "author": "Author 2",
+      "date": "2024-05-17",
+      "readingTime": "8 min read",
+      "coverImage": "/images/disclone-logo.jpeg"
+    }
+  ]
+  

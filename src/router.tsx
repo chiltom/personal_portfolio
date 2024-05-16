@@ -4,6 +4,8 @@ import Home from "@pages/Home";
 import About from "@pages/About";
 import Contact from "@pages/Contact";
 import Portfolio from "@pages/Portfolio";
+import Blog from "@pages/Blog";
+import BlogPost from "@pages/BlogPost";
 import ErrorPage from "@pages/ErrorPage";
 
 const router = createBrowserRouter([
@@ -26,6 +28,14 @@ const router = createBrowserRouter([
       {
         path: "portfolio/",
         element: <Portfolio />,
+      },
+      {
+        path: "blog/",
+        element: <Blog />,
+      },
+      {
+        path: "blog/:id/",
+        element: <BlogPost />,
       },
     ],
     errorElement: <ErrorPage />,
