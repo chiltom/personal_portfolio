@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+<img src="./public/images/site-logo.webp" width="200px" height="200px" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# My Personal Sandbox
 
-Currently, two official plugins are available:
+> A representation of my journey as a developer
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is my portfolio site! Here I document different things that I've learned and projects that I've worked on throughout my software engineering career.
 
-## Expanding the ESLint configuration
+## Purpose
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+> Why did I choose to create this site?
 
-- Configure the top-level `parserOptions` property like this:
+When asked about what technologies I've used, projects I've created or worked on, and lessons that I've learned in my software development/cloud engineering education, I find that it is an extremely difficult question to answer. There are so many aspects and details that fall under these umbrella terms - conversations become easily convoluted or short-sighted.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Creating and maintaining this site allows me to note different points of my programming and cloud engineering journey while also displaying my ability to create feature-rich applications.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Features
+
+### Portfolio
+
+This portion of the site displays a number of the projects and work that I've created or collaborated on.
+
+Each project card is a link to the repository that contains its relevant source code.
+
+- The repositories have READMEs and markdown files explaining their purpose, structure, and architecture, as well as links to relevant contributors and contribution instructions.
+- Each card also has a linked to the deployed application if it has been deployed.
+
+Additionally, this page contains a gallery of some interesting site features and technology familiarity descriptions.
+
+### Blog
+
+This page of the site contains software engineering/cloud engineering blog posts.
+
+<div align="center">©Tom Childress 2024</div>
