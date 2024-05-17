@@ -7,8 +7,11 @@ import ServicesSection from "../components/home/ServicesSection";
 import AboutSection from "../components/home/AboutSection";
 import StatsSection from "../components/home/StatsSection";
 import CTASection from "../components/home/CTASection";
+import { TabTitle } from "@src/utilities/documentUtilities";
 
 const Home: React.FC = (): ReactElement => {
+  TabTitle('Tom Childress - Site');
+
   return (
     <div>
       <HeroHeader />

@@ -12,6 +12,9 @@ const Navbar: React.FC = (): ReactElement => {
           <Link to="/portfolio" className="text-gray-300 hover:text-white">
             Portfolio
           </Link>
+          <Link to="/blog" className="text-gray-300 hover:text-white">
+            Blog
+          </Link>
           <Link to="/about" className="text-gray-300 hover:text-white">
             About
           </Link>
